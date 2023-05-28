@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="courses.css">
+	<title>Courses</title>
+	<link rel="Icon" href="lo.png">
+
+
+</head>
+	
+	<header>
+
+		<div class="topnav">
+			<a href="home.html">Home</a>
+			<a class="active" href="#">Courses</a>
+			<a href="reservation.html">Reservation</a>
+			<a href="speaker.html">Speakers</a>
+			<a href="about.html">About</a>
+
+			<form class="cont">
+			<input type="text" oninput="" id="search-item" class="search-box" placeholder="Search Courses.. "  
+			onkeyup="search()">
+			<button class="search-btn" >Search</button>
+		</form>
+
+		</div>
+
+		<body>
+
+			<form class="text-center py-4">
+				<input type="text" class="placeholder-gray-800 focus:outline-none bg-gray-200 text-gray-800 w-2/4 py-2 px-3 font-poppins rounded-md" id="filterInput" placeholder="Filter">
+			</form>
+
+		<br><br><br>
+		<div class="products grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-12 gap-20">
+		<div class="col">
+			<div class="card" onclick="location.href = 'html.html';" style="background-image: url(Html.png)">
+				<h2>HTML Course</h2>
+				<h4>Hi $2100 </h4>
+			</div>
+
+			<div class="card" onclick="location.href = 'C.html';" style="background-image: url(CC.png);">
+				<h4>$1050</h4>
+			</div>
+
+			<div class="card" onclick="location.href = 'php.html';" style="background-image: url(php.png);">
+				<h4>$1120 </h4>
+			</div>
+
+
+			<div class="card" onclick="location.href = 'javascript.html';" style="background-image: url(java.png);">
+				<h4>$2500</h4>
+			</div>
+
+			<div class="card" onclick="location.href = 'css.html';" style="background-image: url(vv.png)">
+				<h4>$3600</h4>
+			</div>
+
+
+		</div>
+
+		</div>
+
+<script src="./appp.js"></script>
+
+</body>
+<footer class="footer-distributed">
+
+	<div class="footer-left">
+
+		<h3>All<span> COURSES </span>you need</h3>
+
+		<p class="footer-links">
+			<a href="home.html" class="fa">Home</a>
+			·
+			<a href="#">Courses</a>
+			·
+			<a href="reservation.html">Reservation</a>
+			·
+			<a href="speaker.html">Speakers</a>
+			·
+			<a href="speaker.html">About</a>
+		</p>
+
+	</div>
+
+	<div class="footer-center">
+
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>12, San Stefano </span> Alexandria, Egypt</p>
+		</div>
+
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>0123456789</p>
+		</div>
+
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="coursatk@company.com">coursatk@company.com</a></p>
+		</div>
+
+	</div>
+
+	<div class="footer-right">
+
+		<p class="footer-company-about">
+			<span>About the website</span>
+			This website is used to make you learn computer courses in ana easy way , fast and for free.
+		</p>
+
+	</div>
+
+</footer>
+
+
+</html>
